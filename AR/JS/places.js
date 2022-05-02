@@ -31,53 +31,57 @@ window.onload = () => {
 function staticLoadPlaces() {
     return [
         {
-            name: "Duomo di Larino",
+            name: "Serra",
             location: {
-                lat: 41.801077, // change here latitude if using static data
-                lng: 14.910286, // change here longitude if using static data
+                lat: 40.7400886, // change here latitude if using static data
+                lng: 8.5555558, // change here longitude if using static data
             },
 			look: "[gps-camera]",
 			image: "assets/map-marker.png",
-			href: "",
-			sfondo: "assets/sfondi/duomo.jpg",
-			text: "La basilica è intitolata a Santa Maria Assunta e San Pardo, patrono della città. La chiesa venne consacrata nel 1319 e prese il posto di un precedente luogo di culto dedicato sempre al santo Vescovo."
-        },
+			href: "https://sites.google.com/view/farmlabagritech/farm-lab-agritech/serra",
+			sfondo: "assets/sfondi/serra.jpg",
+			text: "La serra di 900 mq, in cui sono coltivate specie stagionali, ornamentali ed aromatiche è un vero laboratorio per gli studenti della scuola in cui mettere in pratica le nozioni apprese."
+},
+
+
 		{
-            name: "Chiesa di San Francesco",
+            name: "Serra_high_tech",
             location: {
-                lat: 41.800840, // change here latitude if using static data
-                lng: 14.910768, // change here longitude if using static data
+                lat: 40.7399523, // change here latitude if using static data
+                lng: 8.5567082, // change here longitude if using static data
             },
 			look: "[gps-camera]",
 			image: "assets/map-marker.png",
-			href: "",
-			sfondo: "assets/sfondi/san_francesco.jpg",
-			text: "La chiesa e l'annesso convento nascono agli inizi del XIV secolo ad opera dell'ordine francescano. Dell'originaria costruzione rimane poco in quanto nel corso dei secoli l'edificio ha subito profonde modifiche."
-        },
+			href: "https://sites.google.com/view/farmlabagritech/farm-lab-agritech/serra-high-tech",
+			sfondo: "assets/sfondi/serra_high_tech.jpg",
+			text: "La serra di 200 mq, auto sostenibile, iper-tecnologica e gestibile da remoto attraverso una piattaforma digitale, consente di migliorare i livelli di apprendimento dei ragazzi."
+},
+
 		{
-            name: "Palazzo ducale",
+            name: "Convitto",
             location: {
-                lat: 41.800420, // change here latitude if using static data
-                lng: 14.910763, // change here longitude if using static data
+                lat: 40.7394842, // change here latitude if using static data
+                lng: 8.5571081, // change here longitude if using static data
             },
 			look: "[gps-camera]",
-			image: "assets/map-marker_2.png",
-			href: "",
-			sfondo: "assets/sfondi/ducale.jpg",
-			text: "Il palazzo in origine era un castello. Fu la famiglia Di Sangro, divenuta feudataria di Larino nel 1683, che trasformò la fortificazione in palazzo gentilizio. Oltre al Comune il palazzo ospita anche il museo civico."
-        },
+			image: "assets/map-marker.png",
+			href: "https://sites.google.com/view/farmlabagritech/farm-lab-agritech/convitto",
+			sfondo: "assets/sfondi/convitto.jpg",
+			text: "Lo stabile, prima sede della Regia scuola pratica di agricoltura, accoglie oggi la struttura convittuale, annessa all'Istituto d'istruzione superiore “N. Pellegrini” ed è in grado di accogliere circa 60 ragazzi."
+},
+
 		{
-            name: "Episcopio",
+            name: "Orto_della_biodiversita",
             location: {
-                lat: 41.800878, // change here latitude if using static data
-                lng: 14.910433, // change here longitude if using static data
+                lat: 40.7401775, // change here latitude if using static data
+                lng: 8.5569946, // change here longitude if using static data
             },
 			look: "[gps-camera]",
-			image: "assets/map-marker_2.png",
-			href: "",
-			sfondo: "assets/sfondi/episcopio.jpg",
-			text: "Il palazzo ha ospitato il primo seminiario della storia ad opera del vescovo Belisario Balduino nel 1564. Oggi accoglie il MAB, cioè il museo, l'archivio e la bibioteca diocesani."
-        },
+			image: "assets/map-marker.png",
+			href: "https://sites.google.com/view/farmlabagritech/farm-lab-agritech/orto-della-biodiversit%C3%A0",
+			sfondo: "assets/sfondi/orto.jpg",
+			text: "L'orto della biodiversità è dotato di un sistema di controllo tecnologico dell'umidità, della temperatura e della luminosità per monitorare lo stato di salute delle piante."
+},
     ];
 }
 
@@ -162,7 +166,7 @@ const clickListener = function (ev) {
         setTimeout(() => {
             // that will disappear after less than 6 seconds
             container.parentElement.removeChild(container);
-        }, 6000);
+        }, 8000);
      }
  };
 icon.addEventListener('click', clickListener);
