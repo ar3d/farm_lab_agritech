@@ -131,7 +131,7 @@ function renderPlaces(places) {
         icon.setAttribute('look-at', place.look);
 		icon.setAttribute('name', place.name);
         icon.setAttribute('src', place.image);
-        icon.setAttribute('scale', '5 5 5');
+        icon.setAttribute('scale', '8 8 8');
 		icon.setAttribute('href', place.href);
 		icon.setAttribute('sfondo', place.sfondo);
 		icon.setAttribute('text', place.text);
