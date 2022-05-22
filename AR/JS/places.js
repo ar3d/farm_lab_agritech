@@ -31,16 +31,16 @@ window.onload = () => {
 function staticLoadPlaces() {
     return [
         {
-            name: "Serra",
+            name: "Vigneto",
             location: {
-                lat: 40.7400886, // change here latitude if using static data
-                lng: 8.5555558, // change here longitude if using static data
+                lat: 40.740251, // change here latitude if using static data
+                lng: 8.556535, // change here longitude if using static data
             },
 			look: "[gps-camera]",
 			image: "assets/map-marker.png",
-			href: "https://sites.google.com/view/farmlabagritech/farm-lab-agritech/serra",
-			sfondo: "assets/sfondi/serra.jpg",
-			text: "La serra di 900 mq, in cui sono coltivate specie stagionali, ornamentali ed aromatiche è un vero laboratorio per gli studenti della scuola in cui mettere in pratica le nozioni apprese."
+			href: "https://sites.google.com/view/farmlabagritech/farm-lab-agritech/il-vigneto",
+			sfondo: "assets/sfondi/vigneto.jpg",
+			text: "Sin dalla sua fondazione l'azienda agricola collegata all'istituto agrario si è posta l'obbiettivo di sperimentare nuove coltivazione e tra queste quella della vite per la produzione di uva da tavola."
 },
 
 
